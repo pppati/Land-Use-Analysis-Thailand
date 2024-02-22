@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1250px ;
+    margin: 0 auto;
+    
+}
+
+header {
+    max-height: 1440px ;
+    background: url('../img/bg-banner.svg') no-repeat ;
+    background-position: center ;
+    border: 0.1px solid whitesmoke;
+}
+
+nav {
+    height: 80px;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 280px;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid white;
+    font-size: 17px;
+}
+
+.logo {
+    color: #FFF;
+    text-align: center;
+}
+
+.logo h1 {
+    color: #FFF;
+    font-size: 25px;
+}
+
+.header-info {
+    margin: 100px auto;
+    width: 770px;
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+
+.header-info h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.header-info h2 {
+    font-size: 35px;
+    color: white;
+}
+
+.header-info p {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.header-btn {
+    margin: 30px auto;
+    width: 170px;
+    height: 40;
+    align-items: center;
+    color:black;
+    background: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+}
+
+.header-btn:hover {
+    background: gainsboro;
+}
+
+.header-btn a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.str p{
+    color: white;
+}
+.landuse-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.land-info{
+    margin-top: 200px;
+    width: 550px;
+    
+}
+.land-title {
+    font-size: 30px;
+    font-family: Inter;
+}
+.land-p {
+    margin-top: 30px;
+    font-size: 19px;
+}
+
+.ld-report{
+    margin-top: 100px;
+    height: 500px;
+    border: 5px solid black;
+    border-radius: 4px;
+}
+
+.ana-info {
+    margin-top: 100px ;
+    
+}
+.ana-title {
+    font-size: 30px;
+    text-align: center;
+}
+.ana-p {
+    margin-top: 30px;
+    font-size: 19px;
+    text-align: center;
+    
+}
+.ana-report{
+    width: 1034px;
+    height: 622px;
+    margin: 20px auto;
+    background-color: #777;
+    border: 5px solid black;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h1 {
+    margin: 1;
+}
+
+.footer-section p {
+    font-size: 14px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* เพิ่มไอคอน FontAwesome */
+.footer-section a i {
+    font-size: 24px;
+}
